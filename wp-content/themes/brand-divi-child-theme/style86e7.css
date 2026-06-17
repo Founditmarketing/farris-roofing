@@ -1,0 +1,626 @@
+/* 
+ Theme Name:     brand-divi-child-theme
+ Author:         Mark Hendriksen
+ Author URI:     https://www.markhendriksen.com
+ Template:       Divi
+ Version:        1.0
+ Description:   A Divi Child Theme 
+*/ 
+
+
+/* ----------- PUT YOUR CUSTOM CSS BELOW THIS LINE -- DO NOT EDIT ABOVE THIS LINE --------------------------- */ 
+
+
+/* ### CHANGE COLORS ### */
+
+
+/* ### CALL TO ACTION MENU BACKGROUND COLOR AND FONT COLOR ### */
+@media only screen and ( min-width: 981px ) {
+.custom_menu.et_pb_menu .cta_menu a {
+    background-color: #e7c311;
+	color: #005913 !important;
+}}
+
+/* ######## MOBILE HAMBURGER ######### */
+
+
+/* ######## CONTACT FORM TOP BORDER HOMe PAGE HEADER ######### */
+
+.home_contactform {
+	border-top: 8px solid #E7C311;
+}
+
+/* ######## CONTACT FORM LITTLE ARROW HOME PAGE HEADER ######### */
+
+.home_contactform .et_pb_contact_field[data-type=select]:after {
+    border-color: #fff transparent transparent transparent;
+}
+
+/* ######## CONTACT FORM SERVICES OPTIONS FONT COLOR HOME PAGE HEADER ######### */
+
+.home_contactform .et_pb_contact_select option {
+	color: #000;
+}
+
+/* ######## BUTTON SINGLE BLOG POST ######### */
+
+.more-link {
+    background-color: #e7c311;
+    color: #005913;
+}
+
+/* ###### DROPDOWN MENU FONT AND BACKGROUND ###### */
+@media only screen and (min-width: 981px) {
+.et_pb_menu_0_tb_header.custom_menu.et_pb_menu .nav li ul.sub-menu a {
+	color: #fff !important;
+}
+
+.custom_menu li li a {
+    background-color: #1E73B9;
+}}
+
+/* ###### MOBILE DROPDOWN MENU TOP BORDER ###### */
+
+.et_mobile_menu {
+    border-top: 3px solid #005913;
+}
+
+
+/* ###### SIDEBAR MENU ###### */
+
+.et_pb_widget_area .menu .menu-item {
+	background-color: #e5e5e5;
+}
+
+.et_pb_widget_area .menu .menu-item:hover {
+	background-color: #e7c311;
+}
+
+.et_pb_widget_area .menu .menu-item:hover a {
+	color: #005913;
+}
+
+.et_pb_widget_area .menu .menu-item a {
+	color: #444;
+}
+
+.et_pb_widget_area .menu .current-menu-item {
+	background-color: #e7c311;
+}
+
+.et_pb_widget_area .menu .current-menu-item a {
+	color: #005913 !important;
+}
+
+
+/* ### GENERAL ### */
+
+#page-container {
+	overflow: hidden;
+}
+
+
+/* ### MENU ### */
+
+@media only screen and ( min-width: 981px ) {
+.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
+    padding: 25px 0 0 0 !important;
+}
+	
+#top-menu li {
+    padding-right: 50px;
+}
+
+.cta_menu a {
+	padding-bottom: 0px;
+    padding: 15px 25px !important;
+    border-radius: 25px;
+}}
+
+@media only screen and ( min-width: 981px ) and (max-width: 1400px) { 
+#top-menu li {
+    padding-right: 20px;
+}
+	
+.et_non_fixed_nav.et_fullwidth_nav.et_header_style_left .logo_container {
+    padding-left: 10px;
+}
+	
+.et_fullwidth_nav #main-header .container {
+    padding-right: 10px;
+}}
+
+@media only screen and ( min-width: 981px ) and (max-width: 1100px) { 
+#top-menu li a {
+    font-size: 12px !important;
+}}
+
+/* ###### DROPDOWN ###### */
+
+#top-menu ul.sub-menu li a {
+    font-size: 14px;
+	width: 240px;
+}
+
+#top-menu ul.sub-menu li  {
+    padding-top: 5px;
+}
+
+.nav li li ul {
+    left: 280px;
+}
+
+.nav li ul {
+	width: 280px;
+}
+
+/* ### HOME PAGE HEADER ### */
+
+.home_contactform .et_pb_contact_select {
+    padding-left: 15px !important;
+}
+
+@media only screen and ( min-width: 981px ) and (max-width: 1350px) { 
+.home_contactform {
+	padding-left: 25px !important;
+	padding-right:25px !important;
+}}
+
+@media only screen and ( min-width: 981px ) and (max-width: 1720px) { 
+.home_header_2 {
+	padding-left: 0px !important;
+	padding-right:0px !important;
+}}
+	
+@media only screen and ( min-width: 981px ) and (max-width: 1600px) {
+.home_header_trust h3 {
+	font-size: 30px !important;
+}}
+
+@media only screen and ( min-width: 981px ) and (max-width: 1600px) {
+.et_pb_row .home_header_trust {
+	margin-top: 20px!important;
+    margin-left: 0px!important;
+}}
+
+
+
+
+/* ### HOME PAGE ABOUT ### */
+
+@media only screen and ( min-width: 981px ) {
+.home_about_1 {
+	margin-right: 15px !important;
+}}
+
+@media only screen and ( min-width: 480px ) {
+.home_about_3 {
+	border-left: 5px solid #fff;
+}}
+
+@media only screen and ( min-width: 480px ) and (max-width: 980px) {
+.home_about_3 {
+	border-left: 2.5px solid #fff !important;
+}
+
+.home_about_2 {
+	border-right: 2.5px solid #fff !important;
+}}
+
+@media only screen and ( min-width: 981px ) and (max-width: 1550px) {
+.home_about_3 {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}}
+
+@media only screen and ( min-width: 981px ) and (max-width: 1650px) {
+.home_about_phone {
+	max-width: 100% !important;
+}}
+
+/* ### HOME PAGE SERVICES SECTION ### */
+
+@media only screen and ( min-width: 480px ) {
+.home_service_1,
+.home_service_2,
+.home_service_3,
+.home_service_4 {
+	border-right: 5px solid #fff !important;
+}}
+
+
+@media only screen and ( min-width: 480px ) and (max-width: 980px) {
+.home_service_1,
+.home_service_3 {
+	border-right: 2.5px solid #fff !important;
+}}
+
+@media only screen and ( min-width: 480px ) and (max-width: 980px) {
+.home_service_2,
+.home_service_4 {
+	border-left: 2.5px solid #fff !important;
+	border-right: 0px solid #fff !important;
+}}
+
+@media only screen and ( min-width: 1853px ) {
+.services_section_column_2 {
+	border-bottom: 5px solid #fff;
+}}
+
+.home_service_image_1:hover {
+	filter: brightness(100%);
+}
+
+.home_service_image_overlay {
+	filter: brightness(70%) !important;
+}
+
+.home_service_image_overlay:hover {
+	filter: brightness(100%) !important;
+}
+
+
+/* ### HOME PAGE PROJECT SECTION ### */
+
+@media only screen and ( min-width: 981px ) {
+.home_project_1,
+.home_project_2,
+.home_project_3,
+.home_project_4,
+.home_project_5 {
+	padding-right: 5px;
+}}
+
+@media only screen and ( min-width: 480px ) and (max-width: 980px) {
+.home_project_2,
+.home_project_4 {
+	border-left: 2.5px solid #fff !important;
+	border-bottom: 5px solid #fff !important;
+}
+
+.home_project_1,
+.home_project_3,
+.home_project_5 {
+	border-right: 2.5px solid #fff !important;
+	border-bottom: 5px solid #fff !important;
+}}
+
+.home_project_image_overlay {
+	filter: brightness(70%) !important;
+}
+
+.home_project_image_overlay:hover {
+	filter: brightness(100%) !important;
+}
+
+.home_map, 
+.home_map .et_pb_map {
+	height: 100% !important;
+}
+
+@media only screen and ( min-width: 981px ) and (max-width: 1200px) {
+.home_project_title h2 {
+	font-size: 16px !important;
+}
+
+.home_project_text p {
+	font-size: 12px !important;	
+	line-height: 1.5em !important;
+}
+.home_project_1 .home_project_title {
+	padding-bottom:0px !important;	
+}
+	
+.home_project_1 .home_project_text {
+	padding-bottom:15px !important;	
+}
+
+.home_project_1 {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+.home_project_button {
+	font-size: 12px !important;	
+}
+
+.et_pb_button_module_wrapper a.home_project_button {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+	
+.home_project_1 .home_project_title {
+	padding-bottom:0px !important;	
+}
+	
+.home_project_1 .home_project_text {
+	padding-bottom:15px !important;	
+}
+
+.home_project_1 {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+.home_project_button {
+	font-size: 12px !important;	
+}
+
+.et_pb_button_module_wrapper a.home_project_button {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}}
+
+@media only screen and ( min-width: 1201px ) and (max-width: 1439px) {
+.home_project_title h2 {
+	font-size: 22px !important;
+}
+
+.home_project_text p {
+	font-size: 14px !important;	
+	line-height: 1.5em !important;
+}
+	
+.home_project_1 .home_project_title {
+	padding-bottom:0px !important;	
+}
+	
+.home_project_1 .home_project_text {
+	padding-bottom:15px !important;	
+}
+
+.home_project_1 {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+.home_project_button {
+	font-size: 12px !important;	
+}
+
+.et_pb_button_module_wrapper a.home_project_button {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+	
+.home_project_1 .home_project_title {
+	padding-bottom:0px !important;	
+}
+	
+.home_project_1 .home_project_text {
+	padding-bottom:15px !important;	
+}
+
+.home_project_1 {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+.home_project_button {
+	font-size: 12px !important;	
+}
+
+.et_pb_button_module_wrapper a.home_project_button {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}}
+
+@media only screen and ( min-width: 1440px ) and (max-width: 1770px) {
+.home_project_title h2 {
+	font-size: 24px !important;
+}
+
+.home_project_text p {
+	font-size: 16px !important;	
+	line-height: 1.7em !important;
+}
+	
+.home_project_1 .home_project_title {
+	padding-bottom:20px !important;	
+}
+	
+.home_project_1 .home_project_text {
+	padding-bottom:25px !important;	
+}
+
+.home_project_1 {
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+}
+.home_project_button {
+	font-size: 14px !important;	
+}
+
+.et_pb_button_module_wrapper a.home_project_button {
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}}
+
+
+
+/* ### HOME CONTACT ### */
+
+@media only screen and ( min-width: 981px ) and (max-width: 1400px) {
+.home_about_contact h3 {
+	font-size: 30px !important;
+}
+
+.home_contact_1 {
+	padding-left: 35px !important;
+	padding-right: 35px !important;	
+}}
+
+
+/* ### SERVICES PAGE ### */
+
+.services_1,
+.services_2,
+.services_3,
+.services_4 {
+	border-right: 5px solid #fff;
+}
+
+/* ### TESTIMONIAL PAGE ### */
+
+@media only screen and ( min-width: 981px ) {
+.testimonial_1,
+.testimonial_2,
+.testimonial_3 {
+	border-right: 5px solid #fff;
+}}
+
+
+/* ### BLOG PAGE ### */
+
+.more-link {
+	display: inline-block !important;
+    padding: 5px 15px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25098039215686274);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+/* ### PROJECT PAGE ### */
+
+@media only screen and ( min-width: 480px ) {
+.project_1,
+.project_2,
+.project_3,
+.project_4 {
+	border-right: 5px solid #fff;	
+}}
+
+@media only screen and ( min-width: 480px ) and (max-width: 980px){
+.project_1,
+.project_3 {
+	
+}}
+
+/* ### SINGLE PROJECT PAGE ### */
+
+@media only screen and ( min-width: 981px ) and (max-width: 1450px){
+.project_description {
+	padding-top: 50px !important;
+	padding-left: 50px !important;
+	padding-right: 50px !important;
+}}
+
+
+/* ##### QUOTE PAGE ##### */
+
+@media (max-width: 980px) {
+.quote_page_row {
+	width: 80% !important;
+}}
+
+@media (min-width: 981px) and (max-width: 1300px) {
+.et_pb_section  .quote_page_row {
+	width: 80% !important;
+	max-width: 80% !important;
+}}
+
+/* ###### SIDEBAR MENU ###### */
+
+.et_pb_widget_area .menu .menu-item {
+	padding: 10px 20px 10px 20px;
+	-webkit-transition: all .3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.et_pb_widget_area .menu .menu-item a {
+	-webkit-transition: all .3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+@media only screen and ( min-width: 768px ) and (max-width: 980px) {
+.widget_nav_menu {
+	width: 100% !important;
+}}
+
+@media only screen and ( min-width: 981px ) and (max-width: 1500px) {
+.services_menu_1 {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+	
+.single_service_3 h1 {
+	font-size: 34px !important;	
+}
+
+.single_service_3 .home_contactform	{
+	padding-left: 15px !important;
+	padding-right: 15px !important;	
+}}
+
+.services_menu_1 .widgettitle {
+	padding-bottom: 15px;
+}
+
+.services_menu_1 .et_pb_widget_area .menu .menu-item a {
+    font-weight: 600;
+}
+
+/* ### CUSTOM FOOTER ### */
+
+#footer-bottom {
+    margin: 15px 15px 0 15px;
+}
+
+#footer-bottom .container {
+	max-width: 100%!important;
+    width: 100%;
+    padding-left: 75px;
+	padding-right: 75px;
+}
+
+/* ###### DIVI 4.0+ FIX ###### */
+
+.custom_menu.et_pb_menu .et_pb_menu__wrap {
+    justify-content: flex-end;
+}
+
+@media only screen and (min-width: 981px) {
+.custom_menu li {
+    padding-right: 50px !important;
+}
+
+.custom_menu.et_pb_menu .cta_menu a {
+    padding-bottom: 0px;
+    padding: 15px 25px !important;
+    border-radius: 25px;
+	margin-top: 15px;
+	color: #005913 !important;
+}}
+
+.custom_menu.et_pb_menu .et_pb_menu__menu>nav>ul>li {
+    display: block !important;
+}
+
+/* ###### DROPDOWN ###### */
+
+@media only screen and (min-width: 981px) {
+.custom_menu ul.sub-menu li a {
+    font-size: 14px !important;
+	width: 240px;
+}
+
+.custom_menu ul.sub-menu li  {
+    padding-top: 5px;
+}
+
+.custom_menu li li ul {
+    left: 280px;
+}
+
+.custom_menu li ul {
+	width: 280px;
+}
+
+.custom_menu .et_mobile_menu li a:hover, .custom_menu .nav ul li a:hover {
+    opacity: .7;
+    background-color: #1E73B9;
+}}
