@@ -772,6 +772,26 @@ setup_collapsible_submenus();
   <p style="font-size:18px;margin:0 0 16px;color:#333">Ready to get started? Reach out directly:</p>
   <a href="tel:3377070660" style="display:inline-block;margin:8px;padding:14px 32px;background:#BB1C29;color:#fff;font-weight:700;text-decoration:none;font-size:16px;letter-spacing:.5px">Call Us</a>
   <a href="mailto:farrisroofingllc@gmail.com" style="display:inline-block;margin:8px;padding:14px 32px;background:#222;color:#fff;font-weight:700;text-decoration:none;font-size:16px;letter-spacing:.5px">Email Us</a>
+
+  <p style="font-size:15px;margin:24px 0 0;color:#666">Or send us your details and we'll reach out:</p>
+  <form onsubmit="event.preventDefault(); this.style.display='none'; this.nextElementSibling.style.display='block';"
+        style="max-width:420px;margin:12px auto 0;text-align:left">
+    <input name="name"  placeholder="Your Name" required
+           style="width:100%;padding:12px;margin:6px 0;border:1px solid #ccc;border-radius:4px;font-size:15px;box-sizing:border-box">
+    <input name="phone" placeholder="Phone" required type="tel"
+           style="width:100%;padding:12px;margin:6px 0;border:1px solid #ccc;border-radius:4px;font-size:15px;box-sizing:border-box">
+    <input name="email" placeholder="Email" type="email"
+           style="width:100%;padding:12px;margin:6px 0;border:1px solid #ccc;border-radius:4px;font-size:15px;box-sizing:border-box">
+    <textarea name="message" placeholder="How can we help?" rows="3"
+           style="width:100%;padding:12px;margin:6px 0;border:1px solid #ccc;border-radius:4px;font-size:15px;box-sizing:border-box"></textarea>
+    <button type="submit"
+           style="width:100%;padding:14px;background:#BB1C29;color:#fff;font-weight:700;border:0;border-radius:4px;font-size:16px;cursor:pointer">
+      Request My Free Estimate
+    </button>
+  </form>
+  <div style="display:none;max-width:420px;margin:12px auto 0;padding:16px;background:#1f7a3f;color:#fff;font-weight:700;text-align:center;border-radius:4px">
+    ✅ Thanks! We got your request and will reach out shortly.
+  </div>
 </div>
 <div style="display:none"><form class="et_pb_contact_form clearfix" method="post" action="https://farrisroofingla.com/">
 						<p class="et_pb_contact_field et_pb_contact_field_0_tb_footer et_pb_contact_field_last" data-id="name" data-type="input">
@@ -867,6 +887,9 @@ var et_pb_sticky_elements = {"et_pb_section_1_tb_header":{"id":"et_pb_section_1_
 //# sourceURL=et-builder-modules-script-sticky-js-extra
 </script>
 <script id="et-builder-modules-script-sticky-js" src="/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/sticky-elements86e7.js?ver=4.20.4"></script>
-	
+
+<!-- Found It — Lead Capture: forwards form submissions to the CRM. Replace data-account with Farris's account UUID. -->
+<script src="https://www.founditos.com/embed/lead-capture.js" data-account="FARRIS_ACCOUNT_UUID" async></script>
+
 	</body>
 </html>
